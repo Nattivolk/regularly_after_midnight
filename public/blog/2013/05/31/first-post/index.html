@@ -135,8 +135,10 @@ I&rsquo;m thinking for a while now to start blogging. But whenever I ended up th
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://yoursite.com/blog/2013/05/31/first-post/" data-via="nattivolk" data-counturl="http://yoursite.com/blog/2013/05/31/first-post/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://yoursite.com/blog/2013/05/31/first-post/" data-via="Nattivolk" data-counturl="http://yoursite.com/blog/2013/05/31/first-post/" >Tweet</a>
   
+  
+  <div class="g-plusone" data-size="medium"></div>
   
   
 </div>
@@ -169,23 +171,6 @@ I&rsquo;m thinking for a while now to start blogging. But whenever I ended up th
     
   </ul>
 </section>
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating...</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("nattivolk", 4, false);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/nattivolk" class="twitter-follow-button" data-show-count="false">Follow @nattivolk</a>
-  
-</section>
-
 
 
 
@@ -223,6 +208,14 @@ I&rsquo;m thinking for a while now to start blogging. But whenever I ended up th
 
 
 
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
 
 
 
