@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Command Line Basics"
-date: 2013-06-04 0:07
+date: 2013-06-04 00:07
 comments: true
 categories: 
 ---
