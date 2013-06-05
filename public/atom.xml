@@ -4,7 +4,7 @@
   <title><![CDATA[Regularly after midnight]]></title>
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2013-06-04T00:08:00-03:00</updated>
+  <updated>2013-06-05T15:42:20-03:00</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name><![CDATA[Natalie Volk]]></name>
@@ -14,10 +14,34 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Command Line Basics - Exercise]]></title>
+    <link href="http://yoursite.com/blog/2013/06/05/command-line-basics-exercise/"/>
+    <updated>2013-06-05T15:34:00-03:00</updated>
+    <id>http://yoursite.com/blog/2013/06/05/command-line-basics-exercise</id>
+    <content type="html"><![CDATA[<p>One thing I always missed after reading some blog posts was a little challenge to try out.
+Of course I play around with commands I&rsquo;ve just learnt and I totally recommend this to everyone, but solving something is always a nice way of making me think. So this post is related to the &ldquo;Command Line Basics&rdquo; from two days ago.</p>
+
+<p>Some exercises to try out:</p>
+
+<ul>
+<li>Download a file and change it to your new directory a) with b) without keeping the file in your Download folder</li>
+ 
+<li>Create a new directory inside your directory and try to delete it (the whole command can&#8217;t be found in the last post. Have a look at man, google or write a command, if you can&#8217;t solve it)</li>
+
+<li>Create a new file inside your directory and see, what rights your user has. Try to remove the write permission </li>
+
+<li>List all your previous commands, which used <code>cd</code>
+</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Command Line Basics]]></title>
-    <link href="http://yoursite.com/blog/2013/06/03/command-line-basics/"/>
-    <updated>2013-06-03T19:57:00-03:00</updated>
-    <id>http://yoursite.com/blog/2013/06/03/command-line-basics</id>
+    <link href="http://yoursite.com/blog/2013/06/04/command-line-basics/"/>
+    <updated>2013-06-04T00:07:00-03:00</updated>
+    <id>http://yoursite.com/blog/2013/06/04/command-line-basics</id>
     <content type="html"><![CDATA[<p>Today I will write about the absolute basics I learnt some time ago, which I use without thinking about as well as some I always forget and hope to remember after writing about them here ;)</p>
 
 <h3>Where are we and what do we have inside?</h3>
