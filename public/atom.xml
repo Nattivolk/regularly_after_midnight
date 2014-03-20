@@ -4,7 +4,7 @@
   <title><![CDATA[Regularly after midnight]]></title>
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2014-03-20T22:51:08+01:00</updated>
+  <updated>2014-03-20T23:45:43+01:00</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name><![CDATA[Natalie Volk]]></name>
@@ -14,26 +14,35 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Command Line Basics - Exercise]]></title>
-    <link href="http://yoursite.com/blog/2013/06/05/command-line-basics-exercise/"/>
-    <updated>2013-06-05T15:34:00+02:00</updated>
-    <id>http://yoursite.com/blog/2013/06/05/command-line-basics-exercise</id>
-    <content type="html"><![CDATA[<p>One thing I always missed after reading some blog posts was a little challenge to try out.
-Of course I play around with commands I&rsquo;ve just learnt and I totally recommend this to everyone, but solving something is always a nice way of making me think. So this post is related to the &ldquo;Command Line Basics&rdquo; from two days ago.</p>
+    <title type="html"><![CDATA[Thoughts on our last retrospective]]></title>
+    <link href="http://yoursite.com/blog/2014/03/20/thoughts-on-our-last-retrospective/"/>
+    <updated>2014-03-20T22:59:00+01:00</updated>
+    <id>http://yoursite.com/blog/2014/03/20/thoughts-on-our-last-retrospective</id>
+    <content type="html"><![CDATA[<p>Today I got asked to write about a retro and the thoughts I had when preparing the retro. Usually I’m not writing much but the preparation of this retro was really fun and I decided to share my thoughts in the hopes one or the other finds it helpful….</p>
 
-<p>Some exercises to try out:</p>
+<p>Lately I found myself in our retros a bit bothered by their routine. I thought we are spending too much time with the facilitator reading post-its (and having difficulty in reading others handwriting and interpreting what the topic could be about) and clustering them. Secondly the dot voting we did let us to always discuss the same topics again. Of course it means that those topics are important to us and we need to talk about them, but at the same time I thought we are missing the chance to come up with new improvements for other areas.  And as a last thing which was important for me was that we also reflect on the positive things we are achieving at the moment and having space to thank one another for things when someone helped us out in one or the other way.</p>
 
-<ul>
-<li>Download a file and change it to your new directory a) with b) without keeping the file in your Download folder</li>
- 
-<li>Create a new directory inside your directory and try to delete it (the whole command can&#8217;t be found in the last post. Have a look at man, google or write a command, if you can&#8217;t solve it)</li>
+<p>So here I was with all the things in my head which I would like to change a bit in our next retro:
+&ndash; less time in reading topics, clustering and deciding what to talk about
+&ndash; More time to actually talk about several topics
+&ndash; Recognition for what we are doing well
+&ndash; Collecting ideas and actions for improvement and what to keep doing well</p>
 
-<li>Create a new file inside your directory and see, what rights your user has. Try to remove the write permission </li>
+<p>When thinking about facilitation techniques I pinged Paulo Caroli and he gave me the idea of <a href="http://www.funretrospectives.com/tell-and-cluster/">Tell &amp; cluster</a>, having a clear space for recognition and the hint to look at his and Tainã Caetano Retrospective page. (<a href="http://www.funretrospectives.com/">Fun Retrospectives</a>)</p>
 
-<li>List all your previous commands, which used <code>cd</code>
-</li>
-</ul>
+<p>After looking around the page my decision was done quite fast to collect topics in our next retro for the following four topics (What went well / What didn’t go so well / New ideas to try out / Thank yous) and the following flow.</p>
 
+<ol>
+<li><a href="http://www.funretrospectives.com/tell-and-cluster/">Tell & cluster</a> inside the 4 quadrants</li>
+<li>No voting, one person after another chooses a topic to talk about (goal was that everyone can choose one topic, which didn&#8217;t fully worked this time)</li>
+<li>Collecting action items</li>
+</ol>
+
+
+<p>The result looked something like this:
+<img src="http://yoursite.com/images/retro_outcome.png" title="Optional title" alt="Alt text" /></p>
+
+<p>Conclusion: I really enjoyed facilitating this retro and thanks a lot to my team for their awesome participation. This activity made me realize how powerful a retro (or any other meeting) can be, if you have a clear goal and think a bit about the way of how to facilitate towards this goal. Would I always use the same techniques again? No, probably not. Sometimes you would want to tackle the topic the whole team worries about and just talk about that topic, sometimes a very open round of discussion might be the best approach. Have fun facilitating  !</p>
 ]]></content>
   </entry>
   

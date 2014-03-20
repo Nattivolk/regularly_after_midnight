@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: retrospective | Regularly after midnight]]></title>
+  <link href="http://yoursite.com/blog/categories/retrospective/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2014-03-20T23:45:43+01:00</updated>
+  <id>http://yoursite.com/</id>
+  <author>
+    <name><![CDATA[Natalie Volk]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Thoughts on our last retrospective]]></title>
+    <link href="http://yoursite.com/blog/2014/03/20/thoughts-on-our-last-retrospective/"/>
+    <updated>2014-03-20T22:59:00+01:00</updated>
+    <id>http://yoursite.com/blog/2014/03/20/thoughts-on-our-last-retrospective</id>
+    <content type="html"><![CDATA[<p>Today I got asked to write about a retro and the thoughts I had when preparing the retro. Usually I’m not writing much but the preparation of this retro was really fun and I decided to share my thoughts in the hopes one or the other finds it helpful….</p>
+
+<p>Lately I found myself in our retros a bit bothered by their routine. I thought we are spending too much time with the facilitator reading post-its (and having difficulty in reading others handwriting and interpreting what the topic could be about) and clustering them. Secondly the dot voting we did let us to always discuss the same topics again. Of course it means that those topics are important to us and we need to talk about them, but at the same time I thought we are missing the chance to come up with new improvements for other areas.  And as a last thing which was important for me was that we also reflect on the positive things we are achieving at the moment and having space to thank one another for things when someone helped us out in one or the other way.</p>
+
+<p>So here I was with all the things in my head which I would like to change a bit in our next retro:
+&ndash; less time in reading topics, clustering and deciding what to talk about
+&ndash; More time to actually talk about several topics
+&ndash; Recognition for what we are doing well
+&ndash; Collecting ideas and actions for improvement and what to keep doing well</p>
+
+<p>When thinking about facilitation techniques I pinged Paulo Caroli and he gave me the idea of <a href="http://www.funretrospectives.com/tell-and-cluster/">Tell &amp; cluster</a>, having a clear space for recognition and the hint to look at his and Tainã Caetano Retrospective page. (<a href="http://www.funretrospectives.com/">Fun Retrospectives</a>)</p>
+
+<p>After looking around the page my decision was done quite fast to collect topics in our next retro for the following four topics (What went well / What didn’t go so well / New ideas to try out / Thank yous) and the following flow.</p>
+
+<ol>
+<li><a href="http://www.funretrospectives.com/tell-and-cluster/">Tell & cluster</a> inside the 4 quadrants</li>
+<li>No voting, one person after another chooses a topic to talk about (goal was that everyone can choose one topic, which didn't fully worked this time)</li>
+<li>Collecting action items</li>
+</ol>
+
+
+<p>The result looked something like this:
+<img src="/images/retro_outcome.png" title="Optional title" alt="Alt text" /></p>
+
+<p>Conclusion: I really enjoyed facilitating this retro and thanks a lot to my team for their awesome participation. This activity made me realize how powerful a retro (or any other meeting) can be, if you have a clear goal and think a bit about the way of how to facilitate towards this goal. Would I always use the same techniques again? No, probably not. Sometimes you would want to tackle the topic the whole team worries about and just talk about that topic, sometimes a very open round of discussion might be the best approach. Have fun facilitating  !</p>
+]]></content>
+  </entry>
+  
+</feed>

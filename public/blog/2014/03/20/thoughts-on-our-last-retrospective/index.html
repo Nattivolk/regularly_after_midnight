@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Regularly after midnight</title>
+  <title>Thoughts on our last retrospective - Regularly after midnight</title>
   <meta name="author" content="Natalie Volk">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://yoursite.com">
+  <link rel="canonical" href="http://yoursite.com/blog/2014/03/20/thoughts-on-our-last-retrospective">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Regularly after midnight" type="application/atom+xml">
@@ -64,15 +64,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/03/20/thoughts-on-our-last-retrospective/">Thoughts on Our Last Retrospective</a></h1>
+      <h1 class="entry-title">Thoughts on Our Last Retrospective</h1>
     
     
       <p class="meta">
@@ -90,14 +87,14 @@
 
 <time datetime="2014-03-20T22:59:00+01:00" pubdate data-updated="true">Mar 20<span>th</span>, 2014</time>
         
-         | <a href="/blog/2014/03/20/thoughts-on-our-last-retrospective/#disqus_thread">Comments</a>
+         | <a href="#disqus_thread">Comments</a>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>Today I got asked to write about a retro and the thoughts I had when preparing the retro. Usually I’m not writing much but the preparation of this retro was really fun and I decided to share my thoughts in the hopes one or the other finds it helpful….</p>
+<div class="entry-content"><p>Today I got asked to write about a retro and the thoughts I had when preparing the retro. Usually I’m not writing much but the preparation of this retro was really fun and I decided to share my thoughts in the hopes one or the other finds it helpful….</p>
 
 <p>Lately I found myself in our retros a bit bothered by their routine. I thought we are spending too much time with the facilitator reading post-its (and having difficulty in reading others handwriting and interpreting what the topic could be about) and clustering them. Secondly the dot voting we did let us to always discuss the same topics again. Of course it means that those topics are important to us and we need to talk about them, but at the same time I thought we are missing the chance to come up with new improvements for other areas.  And as a last thing which was important for me was that we also reflect on the positive things we are achieving at the moment and having space to thank one another for things when someone helped us out in one or the other way.</p>
 
@@ -123,198 +120,16 @@
 
 <p>Conclusion: I really enjoyed facilitating this retro and thanks a lot to my team for their awesome participation. This activity made me realize how powerful a retro (or any other meeting) can be, if you have a clear goal and think a bit about the way of how to facilitate towards this goal. Would I always use the same techniques again? No, probably not. Sometimes you would want to tackle the topic the whole team worries about and just talk about that topic, sometimes a very open round of discussion might be the best approach. Have fun facilitating  !</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/06/04/command-line-basics/">Command Line Basics</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
   
 
+<span class="byline author vcard">Posted by <span class="fn">Natalie Volk</span></span>
 
-<time datetime="2013-06-04T00:07:00+02:00" pubdate data-updated="true">Jun 4<span>th</span>, 2013</time>
-        
-         | <a href="/blog/2013/06/04/command-line-basics/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Today I will write about the absolute basics I learnt some time ago, which I use without thinking about as well as some I always forget and hope to remember after writing about them here ;)</p>
-
-<h3>Where are we and what do we have inside?</h3>
-
-<pre><code>$ pwd</code></pre>
-
-
-<p>pwd = print working directory<br/>
-This shows the complete path from your root to the directory you are currently in.</p>
-
-<pre><code>$ ls
-</code></pre>
-
-
-<p>ls = list<br/>
-Will list all the files in your current directory.</p>
-
-<pre><code>$ ls -l
-</code></pre>
-
-
-<p>ls -l = list long<br/>
-Will show very detailed information about each file. Information I needed to care about so far were the rights the user had for this specific file. r (read), w (write), x (execute)</p>
-
-<h3>Let&rsquo;s start moving</h3>
-
-<pre><code>$ cd
-</code></pre>
-
-
-<p>cd = change directory<br/>
-Definitely one of my favorite commands. I think it is so nice to cd and just move from one place to the other. :)<br/>
-If you only type <code>cd</code>, it will bring you to your home directory.</p>
-
-<p>For the next examples let&rsquo;s imagine you are in: /Users/username/workspace</p>
-
-<pre><code>$ cd ..
-</code></pre>
-
-
-<p>Will get you to the previous directory. <br/>
-For example /Users/username/workspace &ndash;> /Users/username</p>
-
-<pre><code>$ cd fun_project
-</code></pre>
-
-
-<p>/Users/username/workspace &ndash;> /Users/username/workspace/fun_project</p>
-
-<pre><code>$ cd fun <i> (then press tab)</i>
-</code></pre>
-
-
-<p>This will autocomplete to: <code>cd fun_project</code>
-You can press tab at anytime and it will autocomplete the name. If you have two projects starting with fun you can press tab two times and it will show you all the directories starting with fun.</p>
-
-<p>Last one with <code>cd</code>. You can go to any directory, it doesn&rsquo;t need to be related to the one you are currently working in. Some examples:</p>
-
-<pre><code>$ cd ~ -> home
-$ cd ~/Downloads 
-$ cd ~/Desktop/fotos
-</code></pre>
-
-
-<h3>Creating and moving files or directories</h3>
-
-<pre><code>$ mkdir TESTFOLDER
-</code></pre>
-
-
-<p>md = make directory<br/>
-This will create a new folder in the current directory with the name testfolder.</p>
-
-<pre><code>$ mv
-</code></pre>
-
-
-<p>mv = move<br/>
-You can use this command to move a file or to simply rename it.</p>
-
-<pre><code>$ mv OLDNAME NEWNAME
-</code></pre>
-
-
-<p>In this case you are simply renaming</p>
-
-<pre><code>$ mv FILE NEWDIRECTORY/
-</code></pre>
-
-
-<p>In this case you are moving the file to the NEWDIRECTORY directory</p>
-
-<pre><code>$ mv FILE NEWDIRECTORY/fun.jpg
-</code></pre>
-
-
-<p>In this case you are moving and renaming the file. (In this case a jpg)</p>
-
-<pre><code>$ cp
-</code></pre>
-
-
-<p>cp = copy<br/>
-Copying works pretty much the same way as moving, the only difference is that you keep the original file at the original place. For example you download a picture and then copy it somewhere, the same picture will also stay in your Download folder.<br/>
-<u>Note:</u> If you want to move or copy directories you have to use additional commands</p>
-
-<h3>Deleting</h3>
-
-<pre><code>$ rm UGLYPIC.jpg
-</code></pre>
-
-
-<p>rm = remove a file (jpg) called uglypic</p>
-
-<pre><code>$ rm -r USELESSFOLDER
-</code></pre>
-
-
-<p>rm -r = remove a folder called uselessfolder including all the files inside. If you try only rm for a folder you will get the warning the this is a directory and you need to use the -r additionally.</p>
-
-<h3>Very useful commands to help you remember&hellip; something :)</h3>
-
-<pre><code>$ man</code></pre>
-
-
-<p>man = manual<br/>
-This will open the manual for any command. For example <code>man ls</code> will show you how you can list files and which additional commands you can combine ls with. <br/>
-Once inside the manual you can navigate using the arrow keys and to leave this book of wisdom you obviously have to type <code>q</code>.</p>
-
-<pre><code>$ history | grep SOMECOMMAND
-</code></pre>
-
-
-<p>This will search your history of commands, when and how you used SOMECOMMAND<br/>
-So far we used <code>ls</code> several times. Try it out with <code>history | grep ls</code></p>
-
-<p><u>Bonus:</u> tab<br/>
-Tab is awesome!<br/>
-For two reasons 1) It takes your typing away as you can use it to auto complete. 2) This way you also verify that what you are looking for really exists, if this makes sense ;)</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/06/02/first-post/">First Post</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -326,38 +141,46 @@ For two reasons 1) It takes your typing away as you can use it to auto complete.
   
 
 
-<time datetime="2013-06-02T22:35:00+02:00" pubdate data-updated="true">Jun 2<span>nd</span>, 2013</time>
-        
-         | <a href="/blog/2013/06/02/first-post/#disqus_thread">Comments</a>
-        
-      </p>
+<time datetime="2014-03-20T22:59:00+01:00" pubdate data-updated="true">Mar 20<span>th</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/facilitation/'>facilitation</a>, <a class='category' href='/blog/categories/retrospective/'>retrospective</a>
+  
+</span>
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>Okay, here we go!
-I&rsquo;m thinking for a while now to start blogging. But whenever I ended up thinking about the topics I want to write about I stopped, thinking it will just be something what you can find on at least 100 other places on the web.</p>
-
-<p>But hey, why I want to blog?</p>
-
-<p>I recently did a big change in my professional life. I jumped into the the IT world. Why? I will write about this for sure in another blog entry, but let&rsquo;s go back to why and what I want to blog about. As I don&rsquo;t come from a computer science background and just recently changed I still have so many things to learn and as exciting as this is, sometimes it just feels I&rsquo;m not learning fast enough.</p>
-
-<p>So I thought I will just document my learnings at this blog. Mainly to see for myself, where I&rsquo;m going and as well it might be interesting for people, who are in a similar situation than me.</p>
-
-<p>Let&rsquo;s see where this goes :)</p>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://yoursite.com/blog/2014/03/20/thoughts-on-our-last-retrospective/" data-via="Nattivolk" data-counturl="http://yoursite.com/blog/2014/03/20/thoughts-on-our-last-retrospective/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/06/04/command-line-basics/" title="Previous Post: Command Line Basics">&laquo; Command Line Basics</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
+  </section>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -385,6 +208,7 @@ I&rsquo;m thinking for a while now to start blogging. But whenever I ended up th
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -399,7 +223,10 @@ I&rsquo;m thinking for a while now to start blogging. But whenever I ended up th
       var disqus_shortname = 'regularlyaftermidnight';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://yoursite.com/blog/2014/03/20/thoughts-on-our-last-retrospective/';
+        var disqus_url = 'http://yoursite.com/blog/2014/03/20/thoughts-on-our-last-retrospective/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
