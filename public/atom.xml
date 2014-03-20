@@ -4,7 +4,7 @@
   <title><![CDATA[Regularly after midnight]]></title>
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2013-06-05T15:42:20-03:00</updated>
+  <updated>2014-03-20T22:51:08+01:00</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name><![CDATA[Natalie Volk]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Command Line Basics - Exercise]]></title>
     <link href="http://yoursite.com/blog/2013/06/05/command-line-basics-exercise/"/>
-    <updated>2013-06-05T15:34:00-03:00</updated>
+    <updated>2013-06-05T15:34:00+02:00</updated>
     <id>http://yoursite.com/blog/2013/06/05/command-line-basics-exercise</id>
     <content type="html"><![CDATA[<p>One thing I always missed after reading some blog posts was a little challenge to try out.
 Of course I play around with commands I&rsquo;ve just learnt and I totally recommend this to everyone, but solving something is always a nice way of making me think. So this post is related to the &ldquo;Command Line Basics&rdquo; from two days ago.</p>
@@ -40,7 +40,7 @@ Of course I play around with commands I&rsquo;ve just learnt and I totally recom
   <entry>
     <title type="html"><![CDATA[Command Line Basics]]></title>
     <link href="http://yoursite.com/blog/2013/06/04/command-line-basics/"/>
-    <updated>2013-06-04T00:07:00-03:00</updated>
+    <updated>2013-06-04T00:07:00+02:00</updated>
     <id>http://yoursite.com/blog/2013/06/04/command-line-basics</id>
     <content type="html"><![CDATA[<p>Today I will write about the absolute basics I learnt some time ago, which I use without thinking about as well as some I always forget and hope to remember after writing about them here ;)</p>
 
@@ -187,7 +187,7 @@ For two reasons 1) It takes your typing away as you can use it to auto complete.
   <entry>
     <title type="html"><![CDATA[First post]]></title>
     <link href="http://yoursite.com/blog/2013/06/02/first-post/"/>
-    <updated>2013-06-02T22:35:00-03:00</updated>
+    <updated>2013-06-02T22:35:00+02:00</updated>
     <id>http://yoursite.com/blog/2013/06/02/first-post</id>
     <content type="html"><![CDATA[<p>Okay, here we go!
 I&rsquo;m thinking for a while now to start blogging. But whenever I ended up thinking about the topics I want to write about I stopped, thinking it will just be something what you can find on at least 100 other places on the web.</p>
